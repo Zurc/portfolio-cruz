@@ -147,13 +147,17 @@ Conception of new landing pages for some of their products.`,
     link: "https://example.com",
   },
   {
-    id: "saas-dashboard",
-    title: "SaaS Dashboard Design",
-    description:
-      "Modern dashboard interface for a B2B SaaS platform with complex data visualization and workflow management capabilities.",
-    image:
-      "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=500&h=300&fit=crop",
-    technologies: ["Sketch", "InVision", "Design System", "Responsive"],
+    id: "turism",
+    title: "Web and Logo Design",
+    description: `Designed a custom website and logo for a tourism company, focusing on building a strong brand identity and engaging user experience.
+
+Worked closely with stakeholders through successive meetings and feedback sessions, refining the logo through several iterations to ensure it effectively represented the company's vision and values.
+
+Developed detailed wireframes and prototypes to outline the website's structure and user flow, ensuring intuitive navigation and accessibility. Created imagery, iconography, and visual elements that reflect the company’s brand personality and mission, maintaining consistency across all design components.
+
+Completed the project by delivering a cohesive visual identity that enhances the company's online presence and supports its growth objectives.`,
+    image: "/images/africa.png",
+    technologies: ["UX", "UI", "Design", "Logo"],
     category: "uxui",
     link: "https://example.com",
   },
