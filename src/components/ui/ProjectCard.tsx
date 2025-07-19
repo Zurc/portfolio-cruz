@@ -42,6 +42,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
           {project.technologies.map((tech) => (
             <span
               key={tech}
+              style={{ background: "#2b8091", color: "#fff" }}
               className="px-3 py-1 bg-secondary-500 text-white text-sm rounded-full"
             >
               {tech}

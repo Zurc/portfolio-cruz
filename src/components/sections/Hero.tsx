@@ -5,7 +5,7 @@ import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-primary-500 to-purple-600 text-white py-32 min-h-screen flex items-center">
+    <section className="bg-gradient-to-br from-emerald-400 to-indigo-600 text-white py-32 min-h-screen flex items-center">
       <div className="container mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

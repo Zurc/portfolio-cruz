@@ -4,7 +4,7 @@ export const projects: Project[] = [
   // Frontend Projects
   {
     id: "nationwide-platforms",
-    title: "Nationwide Platforms apps",
+    title: "Nationwide Platforms",
     description: `Expansion of IoT web application for this powered access rental market leader, Features include business dashboards; maps to track location of machines or their history, sites, engineers, drivers; pages for: machines, operators, engineers, transport, technical support; internal machines status displaying info from all the tracking devices fitted to each machine, activity, fuel, battery, logged and secured states, engine usage, breakdown failures; geofence management, areas, alerts; associated charts among others.
     
 Greenfield PWA multi-app platform using Nx, Angular 17, Ably to manage real-time data management and DexiJS to store info on IndexedDB for off-line mode. The main project is a mobile app for Engineers to organise daily shifts on Depots or in the Field. Some features include assign of their own vehicle, checking roadworthiness, viewing list and type of jobs, assessing place of work, taking photos, tasks management, parts management, engineer and customer completion, and more.
@@ -20,7 +20,7 @@ Lead small dev team of 4: frontend design and architecture, PR management, code 
 Code and styling support to developers on different projects.
     
 Involved in the project’s time estimates and planning.`,
-    image: "/images/cover-01.jpg",
+    image: "/images/nw-platforms_asset-details.jpg",
     technologies: [
       "Angular",
       "RxJS",
@@ -41,16 +41,58 @@ Involved in the project’s time estimates and planning.`,
     github: "https://github.com/username/ecommerce",
   },
   {
-    id: "analytics-dashboard",
-    title: "Analytics Dashboard",
-    description:
-      "Real-time data visualization dashboard with interactive charts and customizable widgets. Features responsive design and dark mode support.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-    technologies: ["Vue.js", "D3.js", "SCSS", "REST API"],
+    id: "finantial-dashboard",
+    title: "Finantial Dashboard",
+    description: `Project building a fully integrated SaaS Cloud based CLM (client lifecycle management) solution for banks, wealth and asset management firms on a single platform.
+
+Features would include a dashboard with the latest changes, customisable client journeys, clients account and compliance data, e-signatures, behavioural risk profiling, requests, proposals, marketing, onboarding, lead and pipeline management, real time communication (notes, phone calls, related records, timelines), suggested opportunities, related documents and articles.
+
+Use of Atomic Design to build responsive app components`,
+    image: "/images/_photo2.png",
+    technologies: [
+      "HTML5",
+      "CSS3 (SCSS)",
+      "JS",
+      "JSON",
+      "GIT",
+      "Bootstrap 4",
+      "Angular 12",
+      "RxJS",
+      "Typescript",
+      "Agile",
+      "NgRx",
+      "Jest",
+    ],
     category: "frontend",
     link: "https://example.com",
     github: "https://github.com/username/analytics",
+  },
+  {
+    id: "srt-marine",
+    title: "Maritime application",
+    description: `Built front-end for a global project to enhance maritime domain awareness for vessels, ports, environment agencies, fisheries and coast guards.
+
+Component features included reports, alerts, geofence filters, details of transceivers, managing users and roles, trips, different types of vessels, tagging system, sensor stations, internal chat, observers and reported activity, targeting different devices, historic data, showing catches, managing licenses, notifications.
+
+Worked with modules, routing, dynamic templates, reactive forms and validation, maps, graphs, lists, tables, vanilla JS to connect with another system built with Unity, RESTful API's, JSON, migration from SVN to Git, custom styles.
+`,
+    image: "/images/maritime_app.png",
+    technologies: [
+      "HTML5",
+      "CSS3 (SCSS)",
+      "JS",
+      "JSON",
+      "GIT",
+      "Bootstrap 4",
+      "Angular 12",
+      "Rxjs",
+      "Typescript",
+      "Agile",
+      "Webpack",
+    ],
+    category: "frontend",
+    link: "https://example.com",
+    github: "https://github.com/username/portfolio",
   },
   {
     id: "portfolio-website",
@@ -79,13 +121,28 @@ Involved in the project’s time estimates and planning.`,
 
   // UX/UI Projects
   {
-    id: "mobile-banking",
-    title: "Mobile Banking App",
-    description:
-      "Complete UI/UX redesign for a mobile banking application, focusing on security, accessibility, and user-friendly financial management.",
-    image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=300&fit=crop",
-    technologies: ["Figma", "User Research", "Prototyping", "iOS/Android"],
+    id: "big-data",
+    title: "Big Data company",
+    description: `Creation of Company’s website (WP) and maintenance of several web applications.
+
+Working in close collaboration with Developers, Marketing and Sales departments, Project Managers, Commercial Directors, CTO and CEO.
+
+Conception (design) and implementation (frontend) of one of their unicorn projects.
+
+Designing wireframes, prototypes, marketing imagery, banners, logos, cards. Visual design, visual identity, typography, interaction design and animation.
+
+Creation of Brand guidelines intranet (CodeIgniter)
+
+Conception of new landing pages for some of their products.`,
+    image: "/images/bd-overview.jpg",
+    technologies: [
+      "Photoshop",
+      "Illustrator",
+      "Prototyping",
+      "InDesign",
+      "Wordpress",
+      "Pen and paper",
+    ],
     category: "uxui",
     link: "https://example.com",
   },

@@ -11,6 +11,24 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold text-center mb-8">{project.title}</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <p className="mb-4 whitespace-break-spaces">
+              {project.description}
+            </p>
+            <ul className="list-disc list-inside mb-4">
+              {project.technologies.map((tech) => (
+                <li key={tech}>{tech}</li>
+              ))}
+            </ul>
+            {/* <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              View Live
+            </a> */}
+          </div>
           <div className="rounded-lg">
             <Image
               src={project.image}
@@ -18,22 +36,6 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
               width={500}
               height={300}
             />
-          </div>
-          <div>
-            <p className="mb-4">{project.description}</p>
-            <ul className="list-disc list-inside mb-4">
-              {project.technologies.map((tech) => (
-                <li key={tech}>{tech}</li>
-              ))}
-            </ul>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline"
-            >
-              View Live
-            </a>
           </div>
         </div>
       </div>
