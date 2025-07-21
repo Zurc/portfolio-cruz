@@ -7,27 +7,27 @@ import Footer from "@/components/ui/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alex Morgan - Creative Portfolio",
-  description: "Frontend Developer • UX/UI Designer • Digital Artist",
+  title: "Cruz Jurado - Creative Portfolio",
+  description: "Frontend Developer • UX/UI Designer • Artist",
   keywords: [
     "frontend developer",
     "ux designer",
     "ui designer",
-    "digital artist",
+    "artist",
     "portfolio",
   ],
-  authors: [{ name: "Alex Morgan" }],
+  authors: [{ name: "Cruz Jurado" }],
   openGraph: {
-    title: "Alex Morgan - Creative Portfolio",
-    description: "Frontend Developer • UX/UI Designer • Digital Artist",
+    title: "Cruz Jurado - Creative Portfolio",
+    description: "Frontend Developer • UX/UI Designer • Artist",
     url: "https://alexmorgan.dev",
-    siteName: "Alex Morgan Portfolio",
+    siteName: "Cruz Jurado Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Alex Morgan Portfolio",
+        alt: "Cruz Jurado Portfolio",
       },
     ],
     locale: "en_US",
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Morgan - Creative Portfolio",
-    description: "Frontend Developer • UX/UI Designer • Digital Artist",
+    title: "Cruz Jurado - Creative Portfolio",
+    description: "Frontend Developer • UX/UI Designer • Artist",
     images: ["/og-image.jpg"],
   },
 };

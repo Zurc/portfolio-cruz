@@ -38,7 +38,7 @@ export default function Footer() {
                   href="/art"
                   className="text-dark-300 hover:text-white transition-colors"
                 >
-                  Digital Art
+                  Art
                 </Link>
               </li>
             </ul>
@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="border-t border-dark-700 pt-8 text-center">
           <p className="text-dark-300">
-            &copy; 2025 Alex Morgan. All rights reserved.
+            &copy; 2025 Cruz Jurado. All rights reserved.
           </p>
         </div>
       </div>

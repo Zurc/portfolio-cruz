@@ -17,7 +17,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Frontend Developer • UX/UI Designer • Digital Artist
+            Frontend Developer • UX/UI Designer • Artist
           </p>
 
           <motion.div

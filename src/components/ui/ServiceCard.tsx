@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Service } from "@/types";
+import Image from "next/image";
 
 interface ServiceCardProps {
   service: Service;
@@ -18,7 +19,19 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="bg-dark-100 p-8 rounded-lg text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group"
     >
-      <div className="text-5xl mb-4">{service.icon}</div>
+      <div className="mb-4">
+        {typeof service.icon === "string" ? (
+          <Image
+            src={service.icon}
+            alt={service.title}
+            width={64}
+            height={64}
+            className="mx-auto"
+          />
+        ) : (
+          <div className="text-5xl">{service.icon}</div>
+        )}
+      </div>
 
       <h3 className="text-2xl font-semibold text-dark-800 mb-4">
         {service.title}
@@ -30,7 +43,7 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
 
       <Link
         href={service.link}
-        className="inline-flex items-center gap-2 text-secondary-500 font-medium hover:text-secondary-600 transition-colors group-hover:gap-3"
+        className="inline-flex items-center gap-2 text-teal-700 font-medium hover:text-secondary-600 transition-colors group-hover:gap-3"
       >
         View Projects
         <ArrowRight size={18} />

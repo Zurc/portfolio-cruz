@@ -23,7 +23,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-space-between items-center">
           <Link href="/" className="text-2xl font-bold text-dark-800">
-            Alex Morgan
+            Cruz Jurado
           </Link>
         </div>
         <div>

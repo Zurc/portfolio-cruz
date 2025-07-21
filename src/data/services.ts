@@ -6,7 +6,8 @@ export const services: Service[] = [
     title: "Frontend Development",
     description:
       "Creating responsive, modern web applications using React, Vue, and cutting-edge technologies.",
-    icon: "💻",
+    // icon: "💻",
+    icon: "/images/frontend-icon.png",
     link: "/frontend",
   },
   {
@@ -14,15 +15,15 @@ export const services: Service[] = [
     title: "UX/UI Design",
     description:
       "Designing intuitive user experiences and beautiful interfaces that engage and convert.",
-    icon: "🎨",
+    icon: "/images/uxui-icon.png",
     link: "/uxui",
   },
   {
     id: "art",
-    title: "Digital Art",
+    title: "Art",
     description:
-      "Creating stunning digital artwork, illustrations, and visual content for various mediums.",
-    icon: "🖼️",
+      "Creating stunning artwork, illustrations, and visual content for various mediums.",
+    icon: "/images/art-icon.png",
     link: "/art",
   },
 ];

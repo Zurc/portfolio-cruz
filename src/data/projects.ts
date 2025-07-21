@@ -48,7 +48,7 @@ Involved in the project’s time estimates and planning.`,
 Features would include a dashboard with the latest changes, customisable client journeys, clients account and compliance data, e-signatures, behavioural risk profiling, requests, proposals, marketing, onboarding, lead and pipeline management, real time communication (notes, phone calls, related records, timelines), suggested opportunities, related documents and articles.
 
 Use of Atomic Design to build responsive app components`,
-    image: "/images/_photo2.png",
+    image: "/images/wd-clmi.webp",
     technologies: [
       "HTML5",
       "CSS3 (SCSS)",
@@ -191,12 +191,21 @@ Completed the project by delivering a cohesive visual identity that enhances the
 
   // Art Projects
   {
-    id: "fantasy-portraits",
-    title: "Fantasy Portrait Series",
-    description:
-      "A collection of fantasy character portraits featuring ethereal beings and mystical creatures, painted with detailed attention to lighting and atmosphere.",
-    image:
-      "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=500&h=300&fit=crop",
+    id: "digital-delicassy",
+    title: "Digital Delicassy",
+    description: `This captivating painting presents an intimate yet poetic portrayal of a young woman, positioned amidst a lush, blossoming garden. The artist masterfully captures a moment of introspection and tranquility, inviting viewers into a serene garden scene infused with subtle emotional depth.
+
+The subject is depicted from behind, her head gently tilted downward, suggesting a moment of quiet reflection or gentle contemplation. Her soft, flowing brown hair is styled in a loose bun, with delicate strands escaping, adding to the sense of natural elegance. The woman’s skin is rendered with meticulous attention to tone and texture, highlighting the subtle nuances of light and shadow across her shoulders and neck, evoking a quiet vulnerability and grace.
+
+She wears a delicate, white dress characterized by intricate lacework and elegant bows, with an open back that reveals a glimpse of her delicate skin, emphasizing both innocence and vulnerability. The dress’s fabric appears light and airy, contrasting beautifully with the vibrant, lively background of the garden.
+
+The garden itself is alive with color and movement—an array of pink and purple flowers bloom abundantly, their petals rendered with delicate brushstrokes that suggest softness and fragility. Surrounding greenery is lush and verdant, painted with rich, layered textures that evoke a sense of depth and abundance. The background employs warm earthy tones and soft lighting, which imbues the scene with a gentle, almost nostalgic ambiance.
+
+Throughout the composition, the artist employs a harmonious balance of light and shadow, achieving a painterly quality that captures both the fleeting beauty of the moment and the enduring serenity of nature. The textured canvas background enhances the artwork’s tactile richness, grounding the scene in a subtle rustic charm.
+
+Overall, this piece eloquently explores themes of femininity, introspection, and harmony with nature. It invites viewers to linger on the quiet elegance of the figure and the exuberance of the garden, creating a poetic dialogue between human fragility and the timeless beauty of the natural world.
+    `,
+    image: "/images/delicassy.jpg",
     technologies: [
       "Photoshop",
       "Digital Painting",
@@ -207,40 +216,48 @@ Completed the project by delivering a cohesive visual identity that enhances the
     link: "https://example.com",
   },
   {
-    id: "abstract-landscapes",
-    title: "Abstract Landscapes",
-    description:
-      "Surreal landscape compositions that blend reality with imagination, exploring color theory and atmospheric perspective in digital medium.",
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=300&fit=crop",
-    technologies: ["Procreate", "Abstract Art", "Color Theory", "Composition"],
-    category: "art",
-    link: "https://example.com",
-  },
-  {
-    id: "architectural-illustrations",
-    title: "Architectural Illustrations",
-    description:
-      "Detailed architectural renderings and conceptual illustrations for urban planning and building design projects.",
-    image:
-      "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=500&h=300&fit=crop",
+    id: "house-wren",
+    title: "House Wren",
+    description: `This painting is a masterful depiction of a small bird perched delicately on a textured, rugged branch, set against a lush, vibrant background of verdant foliage. Executed with meticulous attention to detail, the artist captures both the fragility and vitality of this feathered creature, evoking a profound sense of natural harmony.
+
+The bird, a house wren hitherto observed during a camping trip in Argentina, is rendered with exquisite realism. Its delicate feathers showcase a subtle gradation of browns and soft earth tones, highlighting the bird's energetic presence and exquisite plumage. The artist has skillfully conveyed the bird’s alert gaze and poised posture, emphasizing its songbird nature and the vivacious spirit typical of this species.
+
+The branch on which the wren is perched exhibits a rich texture, with weathered bark and intricate knots that add depth and realism to the composition. The surrounding background is a lush explosion of green, painted with expressive brushstrokes that evoke a sense of dense foliage and the serenity of the Argentine wilderness. Light filters through the canopy, creating a luminous, almost ethereal atmosphere that underscores the tranquility of the scene.
+
+The predominant green palette, with its varying shades and tones, signifies not just the lushness and vitality of the natural habitat but also conveys themes of growth, renewal, and peaceful coexistence with nature. The artist’s careful balance of light and shadow enhances the three-dimensionality of the scene, inviting viewers to feel immersed in a quiet moment of connection between the bird and its environment.
+
+Overall, this piece exemplifies a harmonious blend of realism and expressive painterly techniques, capturing the fleeting beauty of a moment in nature. It invites viewers to appreciate the subtle elegance of wildlife and the importance of preserving such delicate ecosystems, resonating with a sense of tranquility and reverence for the natural world.`,
+    image: "/images/house-wren.jpg",
     technologies: [
-      "Illustrator",
-      "3D Modeling",
-      "Technical Drawing",
-      "Visualization",
+      "Acrylic",
+      "Art",
+      "Color Theory",
+      "Composition",
+      "Nature",
+      "Hand painted",
     ],
     category: "art",
     link: "https://example.com",
   },
   {
-    id: "brand-illustrations",
-    title: "Brand Illustrations",
-    description:
-      "Custom illustrations for brand identity, marketing materials, and digital campaigns that capture brand personality and values.",
-    image:
-      "https://images.unsplash.com/photo-1596548438137-d51ea5c83ca4?w=500&h=300&fit=crop",
-    technologies: ["Vector Art", "Brand Design", "Marketing", "Illustration"],
+    id: "purple-fingers",
+    title: "Purple Fingers",
+    description: `This exquisite painting vividly captures the delicate beauty of a flowering digitalis plant, set against an abstract, softly blended background. The artist employs a harmonious combination of realism and expressive brushwork to evoke both the intricate details of the flower and the ephemeral quality of nature’s fleeting moments.
+
+The composition centers on a gracefully cascading spike of digitalis blossoms, their bell-shaped petals rendered with meticulous attention to detail and a keen eye for color variation. The flowers range from soft blush pinks to deeper violet hues, exhibiting subtle gradations and intricate markings that highlight the plant’s characteristic speckled patterns and delicate textures. The artist’s skillful use of light and shadow accentuates the gentle curvature of the petals, bringing a three-dimensional sense of volume and depth to each blossom.
+
+The background is an abstract, dreamlike blend of muted greens, purples, and earthy tones, achieved through fluid brushwork and soft transitions. This ethereal backdrop reinforces the vibrant clarity of the flowers, making them appear almost luminous and suspended within their environment. The gentle contrast between the detailed foreground and the painterly background creates a compelling visual tension, drawing the viewer’s eye and emphasizing the fragile elegance of the digitalis.
+
+The overall mood conveyed by this work is one of serenity, grace, and reverence for botanical beauty. The artist’s signature, signed in the lower-left corner with the date “2010,” hints at a mature, contemplative approach to nature’s delicate forms. As a whole, this painting functions as both a botanical tribute and a meditation on the transient, exquisite moments found in the natural world, celebrated through a masterful combination of technical precision and poetic vision.`,
+    image: "/images/purple-fingers.jpg",
+    technologies: [
+      "Art",
+      "Hand painted",
+      "Acrylic",
+      "Nature",
+      "Flowers",
+      "Color",
+    ],
     category: "art",
     link: "https://example.com",
   },
