@@ -94,30 +94,30 @@ Worked with modules, routing, dynamic templates, reactive forms and validation, 
     link: "https://example.com",
     github: "https://github.com/username/portfolio",
   },
-  {
-    id: "portfolio-website",
-    title: "Portfolio Website",
-    description:
-      "Clean, modern portfolio site with smooth animations and optimized performance. Features dynamic content loading and SEO optimization.",
-    image:
-      "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=500&h=300&fit=crop",
-    technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
-    category: "frontend",
-    link: "https://example.com",
-    github: "https://github.com/username/portfolio",
-  },
-  {
-    id: "task-management",
-    title: "Task Management App",
-    description:
-      "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    image:
-      "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=300&fit=crop",
-    technologies: ["React", "Redux", "Socket.io", "Express"],
-    category: "frontend",
-    link: "https://example.com",
-    github: "https://github.com/username/task-manager",
-  },
+  // {
+  //   id: "portfolio-website",
+  //   title: "Portfolio Website",
+  //   description:
+  //     "Clean, modern portfolio site with smooth animations and optimized performance. Features dynamic content loading and SEO optimization.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=500&h=300&fit=crop",
+  //   technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
+  //   category: "frontend",
+  //   link: "https://example.com",
+  //   github: "https://github.com/username/portfolio",
+  // },
+  // {
+  //   id: "task-management",
+  //   title: "Task Management App",
+  //   description:
+  //     "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=300&fit=crop",
+  //   technologies: ["React", "Redux", "Socket.io", "Express"],
+  //   category: "frontend",
+  //   link: "https://example.com",
+  //   github: "https://github.com/username/task-manager",
+  // },
 
   // UX/UI Projects
   {
@@ -162,32 +162,62 @@ Completed the project by delivering a cohesive visual identity that enhances the
     link: "https://example.com",
   },
   {
-    id: "elearning-platform",
-    title: "E-learning Platform",
-    description:
-      "Comprehensive UI design for an online learning platform with course management, progress tracking, and interactive learning modules.",
-    image:
-      "https://images.unsplash.com/photo-1558655146-d09347e92766?w=500&h=300&fit=crop",
+    id: "construction-app",
+    title: "Construction",
+    description: `The redesigned website offers a comprehensive set of benefits that significantly enhance user experience, visual appeal, and functional clarity. Here's an analysis of its key advantages:
+
+1. Clear and Logical Layout:
+The new design organizes content into distinct sections—overview, features, and client benefits—making it easy for visitors to navigate and find relevant information quickly. The use of visual hierarchy guides the eye seamlessly through the key messages.
+
+2. Improved Space Utilization:
+With a thoughtfully spaced layout, the website avoids clutter, giving each element room to breathe. This enhances readability and prevents information overload, creating a clean and professional appearance.
+
+3. Visual Engagement and Focus:
+Large, high-quality images paired with concise, impactful text draw attention to core offerings. The prominent use of imagery related to project management and construction immediately communicates the company's domain and expertise.
+
+4. Enhanced Readability:
+The use of ample white (or negative) space around text blocks and images improves legibility. Clear font choices and well-organized sections enable users to scan the content efficiently, reducing cognitive load.
+
+5. Mobile Responsiveness and Flexibility:
+The design highlights compatibility with various devices such as tablets and smartphones. Features like mobile-friendly workflows and adaptable layouts ensure consistent user experiences across platforms.
+
+6. User-Focused Content Sections:
+Features like “Bespoke,” “Mobile,” “Savings,” and “Handheld” are presented as individual benefit blocks, making it straightforward for visitors to understand the practical advantages—such as ease of use, cost savings, and flexibility.
+
+7. Modern Aesthetic and Professional Feel:
+The visual style is sleek and contemporary, emphasizing the company’s innovation and reliability. The sophisticated layout instills confidence and positions the brand as a leader in BIM compliance solutions.
+
+8. Call-to-Action and Engagement:
+Strategic placement of contact info and a prominent “Learn more” button encourage user interaction, converting visitors into potential clients.
+
+9. Efficient Use of Space for Content Delivery:
+Stacked images and text blocks are balanced to maximize information transmission without overwhelming users, supporting quick comprehension and encouraging further exploration.
+
+10. Consistency and Brand Identity:
+The consistent color scheme, fonts, and image style reinforce the company's branding, creating a cohesive professional identity.
+
+Overall, this website redesign transforms a cluttered, hard-to-navigate interface into a streamlined, engaging, and user-centric platform that highlights the company's key benefits while providing a pleasant and effortless browsing experience.`,
+    image: "/images/construction.jpeg",
     technologies: ["Adobe XD", "User Testing", "Wireframing", "Accessibility"],
     category: "uxui",
     link: "https://example.com",
   },
-  {
-    id: "healthcare-app",
-    title: "Healthcare Mobile App",
-    description:
-      "Patient-centered healthcare app design with appointment scheduling, medical records, and telemedicine capabilities.",
-    image:
-      "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=500&h=300&fit=crop",
-    technologies: [
-      "Figma",
-      "Material Design",
-      "HIPAA Compliance",
-      "User Journey",
-    ],
-    category: "uxui",
-    link: "https://example.com",
-  },
+  // {
+  //   id: "healthcare-app",
+  //   title: "Healthcare Mobile App",
+  //   description:
+  //     "Patient-centered healthcare app design with appointment scheduling, medical records, and telemedicine capabilities.",
+  //   image:
+  //     "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=500&h=300&fit=crop",
+  //   technologies: [
+  //     "Figma",
+  //     "Material Design",
+  //     "HIPAA Compliance",
+  //     "User Journey",
+  //   ],
+  //   category: "uxui",
+  //   link: "https://example.com",
+  // },
 
   // Art Projects
   {
