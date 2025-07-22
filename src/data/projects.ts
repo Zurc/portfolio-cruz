@@ -277,6 +277,19 @@ The overall mood conveyed by this work is one of serenity, grace, and reverence 
     category: "art",
     link: "https://example.com",
   },
+  {
+    id: "pushing-forward",
+    title: "Pushing Forward",
+    description: `This powerful painting captures a decisive moment from a historic polo match between Chapa Uno and Alegría in 2008. The scene vividly illustrates the intense competition, where two determined players and their powerful horses are locked in a fierce pursuit, embodying focus, strength, and harmony. The horses are depicted mid-stride, muscles taut, as they speed across the field, kicked-up turf beneath their hooves, emphasizing the dynamic energy of the game.
+
+Polo, often called "the sport of kings," is one of the oldest team sports, dating back over two thousand years. Played on horseback, it involves strategic gameplay where players use mallets to hit a ball toward goals, demanding skill, agility, and cooperation. The sport’s roots lie in nobility and tradition, often associated with elegance and athletic prowess, and it continues to embody the spirit of competitive excellence and connection with nature.
+
+Set against a lush green landscape, this artwork celebrates not only the exhilaration of a pivotal match but also the enduring beauty and vitality of polo as a sport that unites human and animal performance. It is a tribute to a moment of intense rivalry and the timeless allure of one of the world’s most classic sports.`,
+    image: "/images/pushing-forward.jpg",
+    technologies: ["Art", "Hand painted", "Acrylic", "Sport", "Polo", "Horses"],
+    category: "art",
+    link: "https://example.com",
+  },
 ];
 
 export const getProjectsByCategory = (
