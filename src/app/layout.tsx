@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cruz Jurado - Creative Portfolio",
     description: "Frontend Developer • UX/UI Designer • Artist",
-    url: "https://alexmorgan.dev",
+    url: "https://zurc.github.io/portfolio-cruz",
     siteName: "Cruz Jurado Portfolio",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://zurc.github.io/portfolio-cruz/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Cruz Jurado Portfolio",

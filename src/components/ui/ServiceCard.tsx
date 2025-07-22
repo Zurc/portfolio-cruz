@@ -37,7 +37,7 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
         {service.title}
       </h3>
 
-      <p className="text-dark-600 mb-6 leading-relaxed mb-4">
+      <p className="text-dark-600 mb-6 leading-relaxed">
         {service.description}
       </p>
 

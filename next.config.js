@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-    ],
+    unoptimized: true,
   },
+  assetPrefix: process.env.NODE_ENV === "production" ? "/portfolio-cruz/" : "",
+  basePath: process.env.NODE_ENV ? "/portfolio-cruz" : "",
+  output: "export",
   experimental: {},
 };
 

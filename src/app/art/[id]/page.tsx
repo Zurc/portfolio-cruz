@@ -1,3 +1,10 @@
+export function generateStaticParams() {
+  return projects
+    .filter((project) => project.category === "art")
+    .map((project) => ({
+      id: project.id,
+    }));
+}
 import { projects } from "@/data/projects";
 import Image from "next/image";
 
