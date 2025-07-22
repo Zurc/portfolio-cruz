@@ -26,18 +26,18 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
             alt={service.title}
             width={64}
             height={64}
-            className="mx-auto"
+            className="mx-auto mb-8"
           />
         ) : (
           <div className="text-5xl">{service.icon}</div>
         )}
       </div>
 
-      <h3 className="text-2xl font-semibold text-dark-800 mb-4">
+      <h3 className="text-3xl font-semibold text-dark-800 mb-4">
         {service.title}
       </h3>
 
-      <p className="text-dark-600 mb-6 leading-relaxed">
+      <p className="text-dark-600 mb-6 leading-relaxed mb-4">
         {service.description}
       </p>
 

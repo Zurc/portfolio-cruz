@@ -38,7 +38,7 @@ Involved in the project’s time estimates and planning.`,
     ],
     category: "frontend",
     link: "https://example.com",
-    github: "https://github.com/username/ecommerce",
+    // github: "https://github.com/username/ecommerce",
   },
   {
     id: "finantial-dashboard",
@@ -65,7 +65,7 @@ Use of Atomic Design to build responsive app components`,
     ],
     category: "frontend",
     link: "https://example.com",
-    github: "https://github.com/username/analytics",
+    // github: "https://github.com/username/analytics",
   },
   {
     id: "srt-marine",
@@ -92,7 +92,7 @@ Worked with modules, routing, dynamic templates, reactive forms and validation, 
     ],
     category: "frontend",
     link: "https://example.com",
-    github: "https://github.com/username/portfolio",
+    // github: "https://github.com/username/portfolio",
   },
   // {
   //   id: "portfolio-website",
@@ -101,22 +101,10 @@ Worked with modules, routing, dynamic templates, reactive forms and validation, 
   //     "Clean, modern portfolio site with smooth animations and optimized performance. Features dynamic content loading and SEO optimization.",
   //   image:
   //     "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=500&h=300&fit=crop",
-  //   technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
+  //   technologies: ["HTML5", "CSS3", "JavaScript"],
   //   category: "frontend",
-  //   link: "https://example.com",
-  //   github: "https://github.com/username/portfolio",
-  // },
-  // {
-  //   id: "task-management",
-  //   title: "Task Management App",
-  //   description:
-  //     "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=300&fit=crop",
-  //   technologies: ["React", "Redux", "Socket.io", "Express"],
-  //   category: "frontend",
-  //   link: "https://example.com",
-  //   github: "https://github.com/username/task-manager",
+  //   link: "",
+  //   github: "",
   // },
 
   // UX/UI Projects
@@ -157,7 +145,14 @@ Developed detailed wireframes and prototypes to outline the website's structure 
 
 Completed the project by delivering a cohesive visual identity that enhances the company's online presence and supports its growth objectives.`,
     image: "/images/africa.png",
-    technologies: ["UX", "UI", "Design", "Logo"],
+    technologies: [
+      "UX",
+      "UI",
+      "Design",
+      "Logo",
+      "Adobe Fireworks",
+      "Adobe Photoshop",
+    ],
     category: "uxui",
     link: "https://example.com",
   },
@@ -198,26 +193,17 @@ The consistent color scheme, fonts, and image style reinforce the company's bran
 
 Overall, this website redesign transforms a cluttered, hard-to-navigate interface into a streamlined, engaging, and user-centric platform that highlights the company's key benefits while providing a pleasant and effortless browsing experience.`,
     image: "/images/construction.jpeg",
-    technologies: ["Adobe XD", "User Testing", "Wireframing", "Accessibility"],
+    technologies: [
+      "Adobe XD",
+      "UX",
+      "Wireframing",
+      "UI",
+      "Design",
+      "Adobe Photoshop",
+    ],
     category: "uxui",
     link: "https://example.com",
   },
-  // {
-  //   id: "healthcare-app",
-  //   title: "Healthcare Mobile App",
-  //   description:
-  //     "Patient-centered healthcare app design with appointment scheduling, medical records, and telemedicine capabilities.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=500&h=300&fit=crop",
-  //   technologies: [
-  //     "Figma",
-  //     "Material Design",
-  //     "HIPAA Compliance",
-  //     "User Journey",
-  //   ],
-  //   category: "uxui",
-  //   link: "https://example.com",
-  // },
 
   // Art Projects
   {

@@ -5,7 +5,7 @@ export const services: Service[] = [
     id: "frontend",
     title: "Frontend Development",
     description:
-      "Creating responsive, modern web applications using React, Vue, and cutting-edge technologies.",
+      "Creating responsive, modern web applications using Angular, React, and cutting-edge technologies.",
     // icon: "💻",
     icon: "/images/frontend-icon.png",
     link: "/frontend",

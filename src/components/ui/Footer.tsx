@@ -10,8 +10,8 @@ export default function Footer() {
             <p className="text-dark-300 mb-2">
               Ready to bring your project to life?
             </p>
-            <p className="text-dark-300 mb-2">Email: alex.morgan@example.com</p>
-            <p className="text-dark-300">Phone: +44 7123 456 789</p>
+            <p className="text-dark-300 mb-2">Email: cruzlooking@gmail.com</p>
+            <p className="text-dark-300">Phone: +44 7428 152 410</p>
           </div>
 
           <div>
@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/cruz-jurado-traverso-69a13b15/"
                   className="text-dark-300 hover:text-white transition-colors"
                 >
                   LinkedIn
@@ -57,13 +57,13 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://github.com/Zurc"
                   className="text-dark-300 hover:text-white transition-colors"
                 >
                   GitHub
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#"
                   className="text-dark-300 hover:text-white transition-colors"
@@ -78,15 +78,13 @@ export default function Footer() {
                 >
                   Instagram
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
 
         <div className="border-t border-dark-700 pt-8 text-center">
-          <p className="text-dark-300">
-            &copy; 2025 Cruz Jurado. All rights reserved.
-          </p>
+          <p className="text-dark-300">2025 Cruz Jurado.</p>
         </div>
       </div>
     </footer>
