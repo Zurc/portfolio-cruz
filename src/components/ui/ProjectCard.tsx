@@ -4,9 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { Project } from "@/types";
-
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
+import { getImagePath } from "@/lib/utils";
 interface ProjectCardProps {
   project: Project;
   index?: number;
@@ -25,7 +23,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
         style={{ position: "relative", width: "500px", height: "300px" }}
       >
         <img
-          src={`${basePath}${project.image}`}
+          src={getImagePath(project.image)}
           alt={project.title}
           className="object-cover h-full w-full hover:scale-105 transition-transform duration-300"
           style={{ height: "100%", width: "100%" }}
