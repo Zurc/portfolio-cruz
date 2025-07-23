@@ -1,12 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { Project } from "@/types";
-import { useRouter } from "next/router";
-const { basePath } = useRouter();
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 interface ProjectCardProps {
   project: Project;
@@ -25,11 +24,11 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
         className="relative h-48 overflow-hidden"
         style={{ position: "relative", width: "500px", height: "300px" }}
       >
-        <Image
+        <img
           src={`${basePath}${project.image}`}
           alt={project.title}
-          fill
-          className="object-cover hover:scale-105 transition-transform duration-300"
+          className="object-cover h-full w-full hover:scale-105 transition-transform duration-300"
+          style={{ height: "100%", width: "100%" }}
         />
       </div>
 

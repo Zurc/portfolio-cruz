@@ -4,9 +4,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Service } from "@/types";
-import Image from "next/image";
-import { useRouter } from "next/router";
-const { basePath } = useRouter();
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 interface ServiceCardProps {
   service: Service;
@@ -23,7 +22,7 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
     >
       <div className="mb-4">
         {typeof service.icon === "string" ? (
-          <Image
+          <img
             src={`${basePath}${service.icon}`}
             alt={service.title}
             width={64}
