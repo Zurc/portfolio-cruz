@@ -7,6 +7,8 @@ export function generateStaticParams() {
 }
 import { projects } from "@/data/projects";
 import Image from "next/image";
+import { useRouter } from "next/router";
+const { basePath } = useRouter();
 
 export default function ProjectPage({ params }: { params: { id: string } }) {
   const project = projects.find((p) => p.id === params.id);
@@ -36,7 +38,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           </div>
           <div className="rounded-lg">
             <Image
-              src={project.image}
+              src={`${basePath}${project.image}`}
               alt={project.title}
               width={500}
               height={300}

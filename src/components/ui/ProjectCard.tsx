@@ -5,6 +5,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { Project } from "@/types";
+import { useRouter } from "next/router";
+const { basePath } = useRouter();
 
 interface ProjectCardProps {
   project: Project;
@@ -24,7 +26,7 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
         style={{ position: "relative", width: "500px", height: "300px" }}
       >
         <Image
-          src={project.image}
+          src={`${basePath}${project.image}`}
           alt={project.title}
           fill
           className="object-cover hover:scale-105 transition-transform duration-300"
