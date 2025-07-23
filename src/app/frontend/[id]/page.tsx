@@ -1,3 +1,5 @@
+"use client";
+
 export function generateStaticParams() {
   return projects
     .filter((project) => project.category === "frontend")
