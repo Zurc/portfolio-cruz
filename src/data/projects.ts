@@ -94,18 +94,17 @@ Worked with modules, routing, dynamic templates, reactive forms and validation, 
     link: "https://example.com",
     // github: "https://github.com/username/portfolio",
   },
-  // {
-  //   id: "portfolio-website",
-  //   title: "Portfolio Website",
-  //   description:
-  //     "Clean, modern portfolio site with smooth animations and optimized performance. Features dynamic content loading and SEO optimization.",
-  //   image:
-  //     "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=500&h=300&fit=crop",
-  //   technologies: ["HTML5", "CSS3", "JavaScript"],
-  //   category: "frontend",
-  //   link: "",
-  //   github: "",
-  // },
+  {
+    id: "portfolio-website",
+    title: "Portfolio Website",
+    description:
+      "Clean, modern portfolio site with smooth animations and optimized performance. Features dynamic content loading and SEO optimization.",
+    image: "/images/portfolio.jpg",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    category: "frontend",
+    link: "",
+    github: "",
+  },
 
   // UX/UI Projects
   {
