@@ -97,12 +97,26 @@ Worked with modules, routing, dynamic templates, reactive forms and validation, 
   {
     id: "portfolio-website",
     title: "Portfolio Website",
-    description:
-      "Clean, modern portfolio site with smooth animations and optimized performance. Features dynamic content loading and SEO optimization.",
+    description: `Creation of my personal portfolio website. It is a frontend developer’s portfolio showcasing a broad range of professional skills and projects in frontend development, UX/UI design, and art. It demonstrates my expertise in building responsive, modern web applications and visually engaging interfaces tailored to client needs.
+
+The portfolio highlights significant recent work in diverse sectors such as IoT platform expansion, financial dashboards, maritime applications, big data, web and logo design, and construction solutions. Each project section details the technologies used, project scope, and specific features developed—demonstrating not only technical proficiency but also problem-solving and leadership skills (e.g., leading a small dev team, architecture design, code review, UI flow diagrams).
+
+The projects use various modern frontend technologies, heavily featuring frameworks like Angular with TypeScript, RxJS, and RESTful APIs, complemented by UI libraries such as PrimeNG, Angular Material and Bootstrap. The portfolios also show design tools like Adobe Photoshop, Illustrator, Fireworks, and XD for wireframing, prototyping, and visual content creation.
+`,
     image: "/images/portfolio.jpg",
-    technologies: ["HTML5", "CSS3", "JavaScript"],
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "TypseScript",
+      "Git",
+      "Github",
+    ],
     category: "frontend",
-    link: "",
+    link: "https://example.com",
     github: "",
   },
 
