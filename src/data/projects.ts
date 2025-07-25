@@ -114,6 +114,8 @@ The projects use various modern frontend technologies, heavily featuring framewo
       "TypseScript",
       "Git",
       "Github",
+      "Github Actions",
+      "CI/CD",
     ],
     category: "frontend",
     link: "https://example.com",
